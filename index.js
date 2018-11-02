@@ -18,11 +18,11 @@ function add2(n) {
   
   return n + two
 }
-// var funk
+var funk
 var funkyFunction = function() {
-  var funk = "FUNKY!"
-  return function() {
-    return funk
+  // var funk = "FUNKY!"
+  funk = function() {
+    return "FUNKY!"
   }
 }
 
