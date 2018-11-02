@@ -18,9 +18,9 @@ function add2(n) {
   
   return n + two
 }
-var funk
+// var funk
 var funkyFunction = function() {
-  funk = "FUNKY!"
+  var funk = "FUNKY!"
   return function() {
     return funk
   }
